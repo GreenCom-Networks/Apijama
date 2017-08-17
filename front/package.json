@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
     "materialize-css": "^0.99.0",
     "moment": "^2.18.1",
     "prop-types": "^15.5.10",
