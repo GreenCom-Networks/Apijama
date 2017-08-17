@@ -1,6 +1,8 @@
+![GitHub Logo](https://github.com/GreenCom-Networks/Apijama/blob/master/front/src/images/apijama.png)
+
 ### Apijama
 
-Apijama is a web application made to test your API thank's to Dredd tool and your documentation (Swagger or API Blueprint).
+Apijama is a free web application made to test your API thank's to Dredd tool and your documentation (Swagger or API Blueprint).
 
 From Dredd repository :
 > *Dredd is a language-agnostic command-line tool for validating
@@ -14,6 +16,16 @@ That means that you only need to write a documentation, and tests will be done b
 Dredd validates routes according to the pattern it expected and what it received.
 
 Apijama uses the Dredd reports to graphically show you useful information.
+
+#### Demo
+
+https://greencom-networks.github.io/Apijama/
+
+For this demo, we uses a swagger api description based on the official sample "petstore.io".
+You can find the complete documentation at the follow address : http://petstore.swagger.io/
+
+Our documentation sample is located in the back folder of this repository (https://github.com/GreenCom-Networks/Apijama/blob/master/back/petstoreExample.yml)
+
 
 #### How to use
 
