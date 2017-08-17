@@ -8,9 +8,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development webpack-dev-server --hot --history-api-fallback --open",
+    "start": "webpack-dev-server --hot --history-api-fallback --open",
     "docker": "NODE_ENV=production webpack-dev-server --port 80 --host 0.0.0.0",
-    "build:dist": "react-build-dist --stage-0"
+    "build": "GH_PAGE=true webpack"
   },
   "keywords": [],
   "license": "ISC",

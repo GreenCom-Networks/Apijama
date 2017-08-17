@@ -4,7 +4,9 @@ const path = require('path');
 module.exports = {
     plugins: [
         new webpack.DefinePlugin({
-            "NODE_ENV": JSON.stringify(process.env.NODE_ENV)
+            'NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+            'GH_PAGE': JSON.stringify(process.env.GH_PAGE) || false,
+            'SERVER_URL': JSON.stringify(process.env.SERVER_URL || 'http://localhost:3000')
         })
     ],
     devtool: 'eval',
