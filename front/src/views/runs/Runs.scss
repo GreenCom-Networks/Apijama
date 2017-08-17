@@ -1,0 +1,37 @@
+@import '../../constants';
+
+.runsView {
+  display: flex;
+  overflow-y: auto;
+  height: 100%;
+  flex: 1 1;
+  justify-content: center;
+
+  .scrollbar > div {
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+  }
+
+  .runs {
+    display: inline-block;
+    transition: all 200ms ease;
+    margin: 0;
+    width: 70%;
+  }
+}
+
+.runsViewLeft {
+  overflow-y: hidden;
+
+  .runs {
+    width: 100%;
+    height: 100%;
+
+    .hideScrollbar {
+      height: 100%;
+      overflow-y: auto;
+      width: calc(100% + 15px);
+    }
+  }
+}

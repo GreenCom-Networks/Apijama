@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Dredd Tests" tests="2" failures="0" errors="0" skip="0" timestamp="Mon, 07 Aug 2017 12:38:51 GMT" time="1.78">
+<testcase name="GET /gcn-tools-api/apps" time="1.571"/>
+<testcase name="GET /gcn-tools-api/apps/icehub-toolbox" time="0.203"/>
+</testsuite>
