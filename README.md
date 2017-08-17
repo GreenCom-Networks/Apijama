@@ -1,6 +1,4 @@
-![GitHub Logo](https://github.com/GreenCom-Networks/Apijama/blob/master/front/src/images/apijama.png)
-
-### Apijama
+<img src="https://github.com/GreenCom-Networks/Apijama/blob/master/front/src/images/apijama.png" width="160">
 
 Apijama is a free web application made to test your API thank's to Dredd tool and your documentation (Swagger or API Blueprint).
 
