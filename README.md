@@ -72,3 +72,26 @@ $ docker run -v apijama-data:/data/db apijama
 ```
 
 To check if it works : http://DOCKER_IP_ADDRESS should return you the front-end
+
+## Dredd
+
+For now, the official Dredd repository doesn't own the correct reporter to share results with Apijama. We are going to make a pull request for that.
+Until that's done, an adapted version of Dredd is located at the root of this repo (in the folder dredd).
+
+/!\ Apijama must have been launched before using Dredd.
+
+To use it:
+``` sh
+$ cd dredd/src
+$ npm install 
+$ cd ..
+// update the dredd.yml file if you need different configuration (you will probably need to update the documentation location)
+$ SERVER_URL=XXX ./src/bin/dredd .
+```
+
+Depending on the way you executed Apijama, the SERVER_URL can be localhost:3000 or DOCKER_IP:3000.
+
+If an error is found during Dredd analyse, it will throw an exception at the end of the execution.
+
+If everything worked as it should, you can refresh the Apijama UI and see the run result.
+

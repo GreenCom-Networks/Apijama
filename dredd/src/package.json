@@ -182,13 +182,11 @@
     "url": "git+https://github.com/apiaryio/dredd.git"
   },
   "scripts": {
-    "build": "coffee -b -c -o lib/ src/ && coffee scripts/generate-cli-docs.coffee",
+    "build": "coffee -b -c -o lib/ . && coffee scripts/generate-cli-docs.coffee",
     "coveralls": "scripts/coveralls.sh",
     "docs:build": "mkdocs build",
     "docs:serve": "mkdocs serve",
     "lint": "conventional-changelog-lint --from=master && coffeelint src",
-    "prepublish": "npm run build",
-    "pretest": "npm run build",
     "semantic-release": "scripts/semantic-release.sh",
     "test": "mocha \"test/**/*-test.coffee\"",
     "test:coverage": "scripts/coverage.sh"

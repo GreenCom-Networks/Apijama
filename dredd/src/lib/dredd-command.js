@@ -15,7 +15,7 @@ spawnSync = require('cross-spawn').sync;
 
 console = require('console');
 
-Dredd = require('./dredd');
+Dredd = require('../');
 
 interactiveConfig = require('./interactive-config');
 
