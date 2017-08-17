@@ -1,6 +1,4 @@
-<img src="https://github.com/GreenCom-Networks/Apijama/blob/master/front/src/images/apijama.png" width="200">
-
-### Apijama
+<img src="https://github.com/GreenCom-Networks/Apijama/blob/master/front/src/images/apijama.png" width="220">
 
 Apijama is a free web application made to test your API thanks to Dredd tool and your documentation (Swagger or API Blueprint).
 
@@ -17,7 +15,7 @@ Dredd validates routes according to the pattern it expected and what it received
 
 Apijama uses the Dredd reports to graphically show you useful information.
 
-#### Demo
+## Demo
 
 https://greencom-networks.github.io/Apijama/
 
@@ -27,7 +25,7 @@ You can find the complete documentation at the follow address : http://petstore.
 Our documentation sample is located in the back folder of this repository (https://github.com/GreenCom-Networks/Apijama/blob/master/back/petstoreExample.yml)
 
 
-#### How to use
+## How to use
 
 First, clone this repository then install dependencies :
 
@@ -39,13 +37,13 @@ $ cd ../front
 $ npm install
 ```
 
-###### Development
+#### Development
 
 Front and Back can both be started with command "npm start"
 
 By default server will be on port 3000 and front 8080
 
-###### With Docker
+#### With Docker
 
 You will need to create a docker volume (to keep data after a container restart):
 
