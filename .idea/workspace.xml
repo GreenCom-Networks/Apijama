@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cabaa321-74cf-42c8-92d7-01c71d03244d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/controllers/RunController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/controllers/StepController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/dredd.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/modules/Router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/petstoreExample.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/services/DatabaseService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/services/RunService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/services/StepService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/bin/dredd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/dredd.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/add-hooks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/blueprint-utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/child-process.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/config-utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/configuration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/configure-reporters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/dredd-command.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/dredd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/flatten-headers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/handle-runtime-problems.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/hooks-log-sandboxed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/hooks-log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/hooks-worker-client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/hooks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/interactive-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/merge-sandboxed-hooks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/prettify-response.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/reporters/apiary-reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/reporters/apijama-reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/reporters/base-reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/reporters/cli-reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/reporters/dot-reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/reporters/html-reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/reporters/markdown-reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/reporters/nyan-reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/reporters/x-unit-reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/sandbox-hooks-code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/sort-transactions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/transaction-runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/lib/which.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/scripts/coverage.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/scripts/coveralls.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/scripts/generate-cli-docs.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/tools/dredd/scripts/semantic-release.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/Router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/components/menuBar/MenuBar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/components/menuBar/MenuBar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/components/run/Run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/components/run/Run.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/components/step/Step.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/components/step/Step.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/components/stepOverview/StepOverview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/components/stepOverview/StepOverview.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/constants.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/images/apijama.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/images/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/images/favicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/libs/css/materialIcons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/libs/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/services/ApiService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/services/ConstantsService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/services/SvgService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/stores/StepOverviewStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/views/runs/Runs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/src/views/runs/Runs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/webpack.config.js" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>remoteId</find>
+      <find>'/apis/' + _this.configuration['apiSuite'] +</find>
+      <find>/tests</find>
+      <find>reportUrl</find>
+      <find>apiaryReporter</find>
+      <find>ApiaryReporter</find>
+      <find>œ</find>
+      <find>gcnReporter</find>
+      <find>/tests/</find>
+      <find>this.remoteId</find>
+      <find>basic</find>
+      <find>mdc-tab</find>
+      <find>5px</find>
+      <find>10px</find>
+      <find>run</find>
+      <find>c</find>
+      <find>conso</find>
+      <find>console.log(</find>
+      <find>g</find>
+      <find>gc</find>
+      <find>tests</find>
+      <find>ok</find>
+      <find>gcn</find>
+      <find>s</find>
+      <find>st</find>
+      <find>sta</find>
+      <find>start</find>
+      <find>Scrollbars</find>
+      <find>photo</find>
+      <find>Apiary</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>GcnReporter</replace>
+      <replace>10px</replace>
+      <replace>20px</replace>
+      <replace>this.props</replace>
+      <replace>runs</replace>
+      <replace>ApijamaReporter</replace>
+      <replace>Apijama</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/front/src/components/run/Run.js" />
+        <option value="$PROJECT_DIR$/front/src/animations.scss" />
+        <option value="$PROJECT_DIR$/front/src/components/menuBar/MenuBar.scss" />
+        <option value="$USER_HOME$/Desktop/apijama.svg" />
+        <option value="$PROJECT_DIR$/front/src/services/SvgService.js" />
+        <option value="$PROJECT_DIR$/back/dreddApidoc.yml" />
+        <option value="$PROJECT_DIR$/front/Dockerfile" />
+        <option value="$PROJECT_DIR$/back/node_modules/dredd/lib/reporters/gcn-reporter.js" />
+        <option value="$PROJECT_DIR$/back/Dockerfile" />
+        <option value="$PROJECT_DIR$/front/src/libs/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/front/src/libs/css/materialIcons.css" />
+        <option value="$PROJECT_DIR$/front/src/views/runs/Runs.scss" />
+        <option value="$PROJECT_DIR$/front/src/core.scss" />
+        <option value="$PROJECT_DIR$/back/services/StepService.js" />
+        <option value="$PROJECT_DIR$/back/controllers/StepController.js" />
+        <option value="$PROJECT_DIR$/back/controllers/RunController.js" />
+        <option value="$PROJECT_DIR$/back/services/RunService.js" />
+        <option value="$PROJECT_DIR$/back/services/DatabaseService.js" />
+        <option value="$PROJECT_DIR$/back/tools/dredd/lib/configure-reporters.js" />
+        <option value="$PROJECT_DIR$/front/src/components/step/Step.js" />
+        <option value="$PROJECT_DIR$/front/src/components/stepOverview/StepOverview.scss" />
+        <option value="$PROJECT_DIR$/back/dredd.yml" />
+        <option value="$PROJECT_DIR$/front/src/components/stepOverview/StepOverview.js" />
+        <option value="$PROJECT_DIR$/front/src/Router.js" />
+        <option value="$PROJECT_DIR$/front/src/components/menuBar/MenuBar.js" />
+        <option value="$PROJECT_DIR$/front/README.md" />
+        <option value="$PROJECT_DIR$/back/README.md" />
+        <option value="$PROJECT_DIR$/back/modules/Router.js" />
+        <option value="$PROJECT_DIR$/back/modules/ViewRouter.js" />
+        <option value="$PROJECT_DIR$/back/ui/index.html" />
+        <option value="$PROJECT_DIR$/back/.babelrc" />
+        <option value="$PROJECT_DIR$/back/webpack.config.js" />
+        <option value="$PROJECT_DIR$/back/ui/components/App.js" />
+        <option value="$PROJECT_DIR$/back/ui/client.js" />
+        <option value="$PROJECT_DIR$/back/ui/index.js" />
+        <option value="$PROJECT_DIR$/back/package.json" />
+        <option value="$PROJECT_DIR$/back/index.js" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/back/tools/dredd/lib/reporters/apijama-reporter.js" />
+        <option value="$PROJECT_DIR$/back/petstoreExample.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/front/webpack.production.config.js" />
+        <option value="$PROJECT_DIR$/front/src/services/ConstantsService.js" />
+        <option value="$PROJECT_DIR$/front/src/views/runs/Runs.js" />
+        <option value="$PROJECT_DIR$/front/src/services/ApiService.js" />
+        <option value="$PROJECT_DIR$/front/package.json" />
+        <option value="$PROJECT_DIR$/front/index.html" />
+        <option value="$PROJECT_DIR$/front/webpack.config.js" />
+        <option value="$PROJECT_DIR$/front/src/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="-11" />
+    <option name="width" value="1922" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apijama" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apijama" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apijama" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apijama" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/README.md&#10;/home/anthony/Workspace/apijama/.gitignore" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/back/ui" />
+      <recent name="$PROJECT_DIR$/back/modules" />
+      <recent name="$PROJECT_DIR$/back" />
+      <recent name="$PROJECT_DIR$/back/tools" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/front" />
+      <recent name="$PROJECT_DIR$/back" />
+      <recent name="$PROJECT_DIR$/modules" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cabaa321-74cf-42c8-92d7-01c71d03244d" name="Default" comment="" />
+      <created>1502107667187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502107667187</updated>
+      <workItem from="1502107668596" duration="10895000" />
+      <workItem from="1502178390093" duration="8177000" />
+      <workItem from="1502187208080" duration="17912000" />
+      <workItem from="1502264040973" duration="19551000" />
+      <workItem from="1502299522199" duration="1512000" />
+      <workItem from="1502350695781" duration="11169000" />
+      <workItem from="1502371569588" duration="5889000" />
+      <workItem from="1502437283912" duration="15884000" />
+      <workItem from="1502612177732" duration="12000" />
+      <workItem from="1502644407458" duration="52000" />
+      <workItem from="1502695117591" duration="1080000" />
+      <workItem from="1502696492711" duration="1194000" />
+      <workItem from="1502870281151" duration="6007000" />
+      <workItem from="1502887629402" duration="8455000" />
+      <workItem from="1502910594966" duration="16000" />
+      <workItem from="1502955162949" duration="2199000" />
+      <workItem from="1502957713942" duration="5061000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="115065000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16614583" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3234995" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/front/src/components/run/Run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/services/StepService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/services/DatabaseService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/services/RunService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/controllers/StepController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/images/apijama.png" />
+    <entry file="file://$PROJECT_DIR$/back/npm-debug.log" />
+    <entry file="file://$PROJECT_DIR$/../dredd_updated/dreddApidoc.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/components/step/Step.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="18" column="78" lean-forward="false" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/components/stepOverview/StepOverview.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2020">
+          <caret line="101" column="10" lean-forward="false" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/runs/Runs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/components/stepOverview/StepOverview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="43" column="51" lean-forward="false" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/tools/dredd/lib/configure-reporters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="95" column="6" lean-forward="false" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/tools/dredd/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/components/menuBar/MenuBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="140">
+            <caret line="7" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="91" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/controllers/RunController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/modules/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/modules/ViewRouter.js" />
+    <entry file="file://$PROJECT_DIR$/back/ui/src/libs/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/back/ui/index.html" />
+    <entry file="file://$PROJECT_DIR$/back/.babelrc" />
+    <entry file="file://$PROJECT_DIR$/back/ui/index.js" />
+    <entry file="file://$PROJECT_DIR$/back/ui/client.js" />
+    <entry file="file://$PROJECT_DIR$/back/ui/components/App.js" />
+    <entry file="file://$PROJECT_DIR$/back/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/front/src/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="72" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="82" lean-forward="false" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/back/tools/dredd/bin/dredd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="380">
+            <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/webpack.production.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/petstoreExample.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/dredd.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/tools/dredd/lib/reporters/apijama-reporter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/runs/Runs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/services/ApiService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/dist/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/services/ConstantsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="79" lean-forward="false" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
