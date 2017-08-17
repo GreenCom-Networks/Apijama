@@ -10,17 +10,22 @@ API description document against backend implementation of the API.*
 your API implementation replies with responses as they are described 
 in the documentation.*
 
-That means that you only need to write a documentation, and tests will be done by Dredd.
-Dredd validates routes according to the pattern it expected and what it received.
+## How it works
 
-Apijama uses the Dredd reports to graphically show you useful information.
+First, you have to design your api by using Swagger or API Blueprint.
+
+Then, you can start to develop your API.
+
+Once your API seems to be ready, Dredd validates the routes according to the expected schema.
+
+Finally you can check the reports on the Apijama ui.
 
 ## Demo
 
 https://greencom-networks.github.io/Apijama/
 
-For this demo, we uses a swagger api description based on the official sample "petstore.io".
-You can find the complete documentation at the follow address : http://petstore.swagger.io/
+For this demo, we use a swagger api description based on the official sample "petstore.io".
+You can find the complete documentation at the following address : http://petstore.swagger.io/
 
 Our documentation sample is located in the back folder of this repository (https://github.com/GreenCom-Networks/Apijama/blob/master/back/petstoreExample.yml)
 
@@ -30,18 +35,20 @@ Our documentation sample is located in the back folder of this repository (https
 First, clone this repository then install dependencies :
 
 ``` sh
-$ git clone URL
+$ git clone https://github.com/GreenCom-Networks/apijama
 $ cd apijama/back
 $ npm install
 $ cd ../front
 $ npm install
 ```
 
+
 #### Development
 
-Front and Back can both be started with command "npm start"
+Front and Back can both be started with the command "npm start"
 
-By default server will be on port 3000 and front 8080
+By default the server will be on port 3000 and front 8080
+
 
 #### With Docker
 
