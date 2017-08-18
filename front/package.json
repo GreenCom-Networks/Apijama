@@ -30,7 +30,8 @@
     "react-tap-event-plugin": "^2.0.1",
     "react-transition-group": "^1.2.0",
     "superagent": "^3.5.2",
-    "watchable-store": "^1.0.4"
+    "watchable-store": "^1.0.4",
+    "webpack": "https://registry.npmjs.org/webpack/-/webpack-2.2.1.tgz"
   },
   "devDependencies": {
     "babel-core": "https://registry.npmjs.org/babel-core/-/babel-core-6.23.1.tgz",

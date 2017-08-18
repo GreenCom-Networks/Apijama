@@ -38,12 +38,22 @@ class StepOverview extends React.Component {
         });
     }
 
-    _parseResponseBody(response) {
+    _parseRealResponse(response) {
         let responseBody;
         try {
             responseBody = JSON.parse(response.body);
         } catch (e) {
-            responseBody = {error: response.body};
+            responseBody = response.body ? {error: response.body} : {};
+        }
+        return responseBody
+    }
+
+    _parseExpectedResponse(response){
+        let responseBody;
+        try {
+            responseBody = JSON.parse(response);
+        } catch (e) {
+            responseBody = "";
         }
         return responseBody
     }
@@ -103,13 +113,13 @@ class StepOverview extends React.Component {
                     <div id="expectedResponse" className="response col s12">
                         <Scrollbars autoHide>
                             <JSONPretty id="json-pretty"
-                                        json={JSON.parse(this.props.step.resultData.expectedResponse.bodySchema) || {}}/>
+                                        json={this._parseExpectedResponse(this.props.step.resultData.expectedResponse.bodySchema) || {}}/>
                         </Scrollbars>
                     </div>
                     <div id="realResponse" className="response col s12">
                         <Scrollbars autoHide>
                             <JSONPretty id="json-pretty"
-                                        json={this._parseResponseBody(this.props.step.resultData.realResponse)}/>
+                                        json={this._parseRealResponse(this.props.step.resultData.realResponse)}/>
                         </Scrollbars>
                     </div>
                     <div id="errors" className="response col s12">

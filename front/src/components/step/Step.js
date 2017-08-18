@@ -20,7 +20,7 @@ class Step extends React.Component {
                 {this.props.step.resultData.request && (
                     <div>
                         {this.props.step.result === 'fail' && <div className="failStepIcon"><ExclamationPoint/></div>}
-                        <div className="method">
+                        <div className={"method " + this.props.step.resultData.request.method}>
                             {this.props.step.resultData.request.method}
                         </div>
                         <div className="uri">

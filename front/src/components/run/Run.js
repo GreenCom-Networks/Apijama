@@ -20,6 +20,15 @@ class Run extends React.Component {
         this.setState({isOpened: !this.state.isOpened});
     }
 
+    _packSteps(steps) {
+        let result = {};
+        steps.forEach(step => {
+            if (!result[step.origin.resourceName]) result[step.origin.resourceName] = [];
+            result[step.origin.resourceName].push(step);
+        });
+        return Object.values(result);
+    }
+
     render() {
         return (
             <div className={'run ' + (this.state.isOpened && 'open')}>
@@ -43,7 +52,13 @@ class Run extends React.Component {
                     {
                         this.state.isOpened && (
                             <div className="steps">
-                                {this.props.steps.map((step, index) => <Step key={index} step={step}/>)}
+                                {this._packSteps(this.props.steps).map((packs, index1) => {
+                                    return (
+                                        <div className="stepPack" key={index1}>
+                                            {packs.map((step, index2) => <Step key={index2} step={step}/>)}
+                                        </div>
+                                    )
+                                })}
                             </div>
                         )
                     }

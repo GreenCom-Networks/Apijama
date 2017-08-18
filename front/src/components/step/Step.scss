@@ -7,6 +7,32 @@
     vertical-align: top;
   }
 
+  .method {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 2px;
+  }
+
+  .method.GET {
+    color: #7ccf22;
+  }
+
+  .method.POST {
+    color: #f5a623;
+  }
+
+  .method.HEAD {
+    color: #212121;
+  }
+
+  .method.PUT {
+    color: #488ad7;
+  }
+
+  .method.DELETE {
+    color: #e24946;
+  }
+
   .uri {
     margin-left: 10px;
   }
@@ -19,7 +45,7 @@
     font-style: italic;
   }
 
-  .failStepIcon{
+  .failStepIcon {
     margin-top: 2px;
     margin-left: -16px;
     fill: rgba(255, 0, 0, 0.5);
