@@ -47,6 +47,8 @@ $ npm install
 
 Front and Back can both be started with the command "npm start"
 
+You will also need a mongodb server if you want to execute the server as a developer (running on port 27017). 
+
 By default the server will be on port 3000 and front 8080
 
 
@@ -68,10 +70,10 @@ $ docker build -t apijama .
 Finally, you can execute your docker like this : 
 
 ``` sh
-$ docker run -v apijama-data:/data/db apijama
+$ docker run -v -p 8787:80 -p 3000:3000 apijama-data:/data/db apijama
 ```
 
-To check if it works : http://DOCKER_IP_ADDRESS should return you the front-end
+To check if it works : http://localhost:8787 should return you the front-end
 
 ## Dredd
 
